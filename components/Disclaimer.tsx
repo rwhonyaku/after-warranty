@@ -1,12 +1,12 @@
 export function Disclaimer() {
   return (
-    <section className="disclaimer">
+    <aside className="disclaimer" aria-label="Information notice">
+      <h4>Independent information notice</h4>
       <p>
-        This page is for general, illustrative information only. It is not
-        affiliated with Dyson or any manufacturer. Policies, options, and costs
-        change over time. Users must confirm details with official or local
-        sources.
+        After-Warranty.com is not affiliated with Dyson or any manufacturer.
+        Policies, repair options, and prices can change, so users should verify
+        current details with official or local sources before acting.
       </p>
-    </section>
+    </aside>
   );
 }
